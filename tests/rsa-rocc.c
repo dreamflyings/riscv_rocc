@@ -69,7 +69,10 @@ int main() {
     //uint128 modulus = {0xe037d35a8b160eb7LL,  0xf11919bfef440917LL};
     //uint128 privateExp = {0x00cab10ccaa4437b67LL,  0x11c977a277fe00a1LL};
     //uint64_t pubExp = 65537;
-    const char plaintext[] = "Hello !";
+
+    const char plaintext[] = ">> This is a secret message <<!";
+    //const char plaintext[] = "Hello !";
+    
     //uint128 ciphertext;
     //uint128 decrypted;
     //END DO NOT MODIFY
